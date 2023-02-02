@@ -19,5 +19,8 @@ espeak-ng -qx --ipa -vml --sep=' ' നടക്കുക
 espeak-ng -qx --ipa -vml --sep=' ' ആയിരം
 espeak-ng -qx --ipa -vml --sep=' ' 1000
 espeak-ng -qx --ipa -vhi --sep=' ' 1000
+espeak-ng -qx --ipa -vhi --sep=' ' 1000.15
+espeak-ng -qx --ipa -vml --sep=' ' 1000.15
+espeak-ng -qx --ipa -ven --sep=' ' 1000.15
 ```
 
