@@ -22,5 +22,6 @@ espeak-ng -qx --ipa -vhi --sep=' ' 1000
 espeak-ng -qx --ipa -vhi --sep=' ' 1000.15
 espeak-ng -qx --ipa -vml --sep=' ' 1000.15
 espeak-ng -qx --ipa -ven --sep=' ' 1000.15
+espeak-ng -qx --ipa=1 -vkn --sep='|' 1000.150
 ```
 

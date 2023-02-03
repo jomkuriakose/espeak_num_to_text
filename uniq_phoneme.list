@@ -1,0 +1,244 @@
+phoneme ~
+phoneme @
+phoneme &
+phoneme &:
+phoneme 0
+phoneme :0
+phoneme 02   // becomes V in en-us
+phoneme 0#    // [@] in unstressed syllables
+phoneme :1
+phoneme @2
+phoneme @2   //  Schwa, changes to I before a vowel
+phoneme @2   //  Schwa, changes to I before a vowel. th**e**, used only for "the".
+phoneme 3
+phoneme @3
+phoneme 3:
+phoneme 3    //  Schwa, used for rhotic schwa in American
+phoneme @5   //  Schwa, changes to U before a vowel
+phoneme @5   //  Schwa, changes to U before a vowel. t**o**, used only for "to".
+phoneme a
+phoneme a~
+phoneme a:
+phoneme a/
+phoneme a#
+phoneme A~
+phoneme A:
+phoneme A@
+phoneme a2  // don't reduce to a#
+phoneme a#2  // for word 'an'
+phoneme aa
+phoneme aa   //   'bath' etc.
+phoneme a# // **a**bout. This may be \[@\] or may be a more open schwa.
+phoneme A#    // [a] in British [A:] in American
+phoneme A#    // [a] in British [A:] in American 
+phoneme a#    // don't reduce to [@]
+phoneme aI
+phoneme aI~
+phoneme aI@
+phoneme aI2
+phoneme aI3
+phoneme aI@ // sc**ie**nce
+phoneme #    // a NULL phoneme for 'virama'
+phoneme a // tr**a**p
+phoneme aU
+phoneme aU~
+phoneme aU@
+phoneme aU@ // h**our**
+phoneme A@      // Used for [A:] when followed by 'r', becomes [A:]+[r] in American
+phoneme #a  virtual
+phoneme b
+phoneme b#
+phoneme B
+phoneme  b       // this is [b]
+phoneme c
+phoneme c#
+phoneme C // German i**ch**
+phoneme  _^_  //  Change dictionary (followed by language-code in ascii
+phoneme _;_  //   clause pause
+phoneme d
+phoneme d.
+phoneme d.#
+phoneme d[
+phoneme d#
+phoneme d2   // 'rr' sounds like English 'd'
+phoneme d#    // change to [d] or [t] depending on whether previous phoneme is voiced
+phoneme d       // dental variant of /d/
+phoneme %%   //  Diminished stress
+phoneme D // **th**is
+phoneme dZ;
+phoneme dZ // **j**udge
+phoneme e
+phoneme e~
+phoneme e:
+phoneme e@
+phoneme E
+phoneme E~
+phoneme E:
+phoneme E2  // does not reduce in unstressed syllables
+phoneme e# // **E**XPLORE
+phoneme e // German **eh**, French **é**
+phoneme eI
+phoneme eI    // for English words
+phoneme E#    // [@] in unstressed syllables, if next vowel is stressed
+phoneme ||  //   End Word
+phoneme #e  virtual
+phoneme f
+phoneme *    //   flap
+phoneme g
+phoneme g#
+phoneme ?  // glottal stp
+phoneme h
+phoneme +   // high tone, use after a vowel
+phoneme H       // use for full "h"
+phoneme i
+phoneme i~
+phoneme i:
+phoneme i@
+phoneme I
+phoneme I~
+phoneme I#
+phoneme I2
+phoneme I2#
+phoneme I2 // **i**ntend. As \[I\], but also indicates an unstressed syllable.
+phoneme I2#   // used for [I] in -ed adjectives which may be [E] in some accents
+phoneme i@3
+phoneme i         // as [i:] but not marked as 'long'
+phoneme - //  Indicates the previous phoneme is a syllabic consonant
+phoneme i   //  optional variant of [I] for end of words
+phoneme IR        // used for "ir" when [3:] is split (Scottish)
+phoneme I#   // used for [I] which may be [@] in some accents
+phoneme #i  virtual
+phoneme J
+phoneme J#
+phoneme J^   // palatal fricative (Kirshenbaum C<vcd>)
+phoneme j // **y**es
+phoneme k
+phoneme k#
+phoneme l
+phoneme l.
+phoneme @L
+phoneme L/
+phoneme l/2    // 'dark' [l] after a vowel
+phoneme l/3    // Replacement for [l/]
+phoneme : //  lengthen previous vowel by "length"
+phoneme : //  Lengthen previous vowel by "length"
+phoneme : //  Lengthen the previous vowel by "length"
+phoneme ;     // linking j, used between (i) vowels and a following vowel
+phoneme l#   // Lateral fricative (eg. Welsh "ll")
+phoneme _::  //   Long pause
+phoneme l^    // palatal l, e.g. Italian **g**li
+phoneme @L // simp**le**
+phoneme l-   // syllabic l
+phoneme l      // use dark [l/2] before not-vowel
+phoneme l/    // used for [l] when not before a vowel
+phoneme L   // velar L
+phoneme m
+phoneme m-
+phoneme n
+phoneme n-
+phoneme n.
+phoneme N
+phoneme N-
+phoneme N // si**ng** 
+phoneme n^ // Spanish **ñ**
+phoneme o
+phoneme o~
+phoneme o:
+phoneme o@
+phoneme O
+phoneme O~
+phoneme O:
+phoneme O@
+phoneme O2
+phoneme o // German **oo**, French **o**
+phoneme OI
+phoneme oU
+phoneme oU#
+phoneme #o  virtual
+phoneme p
+phoneme p#
+phoneme =   //  Place stress on previous vowel
+phoneme '   //  Primary stress
+phoneme '!  //  Primary stress (emphasized)
+phoneme ''  //  Primary stress (priority)
+phoneme q
+phoneme Q
+phoneme Q^
+phoneme Q"
+phoneme r
+phoneme R
+phoneme R2   // this is [R] from Slovak/Czech
+phoneme R3  // Afrikaans
+phoneme r-   // linking r, used in English between certain vowels and a following vowel
+phoneme r // **r**ed (Omitted if not immediately followed by a vowel)
+phoneme r.    //   retroflex
+phoneme r-   // syllabic r
+phoneme r/   // used for [r] when not preceding a vowel
+phoneme r"     // uvular trill
+phoneme s
+phoneme s;
+phoneme s.
+phoneme S;
+phoneme @    //  Schwa
+phoneme @    //  Schwa, e.g. alph**a**
+phoneme \,   //  [,] Secondary stress
+phoneme \,\,  //  [,,] Secondary stress
+phoneme _  //  Short pause
+phoneme _! //   Short pause, don't replace by linking
+phoneme S // **sh**op
+phoneme _:   //   Standard pause
+phoneme t
+phoneme t 
+phoneme t.
+phoneme t.#
+phoneme t2   // [t] which doesn't reduce
+phoneme t        // dental variant of /t/
+phoneme t[        // dental variant of /t/
+phoneme t#        // dental variant of /t/
+phoneme **    //   TEST flap
+phoneme @#   // TEST: [@] which is slightly more 'front'
+phoneme t#    // reduced [t] as in "city"
+phoneme t#    // reduced [t] as in "city" in en-us
+phoneme tS
+phoneme tS;
+phoneme tS#
+phoneme tS     // **ch**urch
+phoneme T   // **th**in
+phoneme u
+phoneme u~
+phoneme u:
+phoneme U
+phoneme U~
+phoneme U:
+phoneme U@
+phoneme u2   // as [u] but don't reduce
+phoneme %  //  Unstressed
+phoneme #u  virtual
+phoneme v
+phoneme v 
+phoneme V
+phoneme V~
+phoneme v        // approximant, not fricative
+phoneme v#        // approximant, not fricative
+phoneme _|   //  Very short pause
+phoneme @-   //  very short schwa
+phoneme V  // inherent vowel, can be [O] or [o]
+phoneme #@  virtual
+phoneme V#    // omit if the next phoneme is a vowel
+phoneme VR        // used for "or"/"ur" when [3:] is split (Scottish)
+phoneme v   // Try English [v]
+phoneme w
+phoneme w#
+phoneme X
+phoneme  _X1  //  a language specific action
+phoneme #X1  // click, use for indicating capital letters
+phoneme #X2  // click, use for indicating combining long vowels
+phoneme x // German bu**ch**
+phoneme y  // epenthetic vowel
+phoneme z
+phoneme z;
+phoneme z.
+phoneme Z;
+phoneme z/2    // used for 's suffix
+phoneme z#    // change to [z] or [s] depending on whether previous phoneme is voiced
+phoneme Z // plea**s**ure
