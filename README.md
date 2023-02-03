@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-sudo apt-get install espeak-ng espeak-ngespeak-ng-data espeak-ng-espeak
+sudo apt-get install espeak-ng espeak-ng-data espeak-ng-espeak
 git clone https://github.com/skolachi/ipa2cmuconverter.git
 ```
 ## Espeak git code and documentation
